@@ -35,7 +35,7 @@ header{
     top: 50%;
     left: 50%;
     width: 600px;
-    margin-left: -300px;
+    transform: translate(-50%, -50%);
 }
 
 .text_banner {
@@ -70,8 +70,15 @@ header{
     border: 1px solid #15a4fa;
     border-radius: 5px;
     padding: 21px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
 
 }
+
+.button:hover{
+    background: rgba(21, 164, 250, 0.8);
+}
+
 a{
     text-decoration: none;
     color: white;
