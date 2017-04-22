@@ -46,3 +46,33 @@ header{
     color: white;
     margin: 0;
 }
+.text_logo {
+    text-align: center;
+    font-family: Lato;
+    font-weight: regular;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    border-top: 2px solid #15a4fa;
+    padding-top: 40px;
+}
+.button{
+
+    left: 50%;
+    margin-top: 65px;
+    margin-left: 178px;
+    width: 178px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: regular;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    padding: 21px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
