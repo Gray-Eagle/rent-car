@@ -6,3 +6,8 @@
 /css/*
 /js/*
 /fonts/*
+
+/assets/css.app.version.json
+/assets/js.app.version.json
+/assets/css.vendor.version.json
+/assets/js.vendor.version.json
