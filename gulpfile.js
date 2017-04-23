@@ -22,16 +22,16 @@ var streamify = require('gulp-streamify');
 
 var vendor = {
     css: [
-        //'./vendor/bower/bootstrap/dist/css/bootstrap.css',
+        './bower_components/bootstrap/dist/css/bootstrap.css'
         //'./vendor/bower/fancybox/dist/jquery.fancybox.css',
         //'./vendor/bower/nouislider/distribute/nouislider.css'
     ],
     fonts: [
-        //'./vendor/bower/bootstrap/dist/fonts/**/*'
+        './bower_components/bootstrap/dist/fonts/**/*'
     ],
     js: [
-        //'./vendor/bower/jquery/dist/jquery.js',
-        //'./vendor/bower/bootstrap/dist/js/bootstrap.js',
+        './bower_components/jquery/dist/jquery.js',
+        './bower_components/bootstrap/dist/js/bootstrap.js'
         //'./vendor/bower/fancybox/dist/jquery.fancybox.js',
         //'./vendor/bower/iosslider/_src/jquery.iosslider.js',
         //'./vendor/bower/jquery.inputmask/dist/jquery.inputmask.bundle.js',
@@ -104,14 +104,14 @@ gulp.task('css:vendor', function(){
         .pipe(autoprefixer())
         .pipe(concat('vendor.css'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./public_html/css'));
+        .pipe(gulp.dest('./css'));
 
     gulp.src(vendor.css)
         .pipe(plumber(errorHandler))
         .pipe(autoprefixer())
         .pipe(concat('vendor.min.css'))
         .pipe(minifyCss({compatibility: 'ie8'}))
-        .pipe(gulp.dest('./public_html/css'));
+        .pipe(gulp.dest('./css'));
 
     fs.writeFile("./assets/css.vendor.version.json", JSON.stringify({
         'v': new Date().getTime()
@@ -143,13 +143,13 @@ gulp.task('js:vendor', function() {
         .pipe(sourcemaps.init())
         .pipe(concat('vendor.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./public_html/js'));
+        .pipe(gulp.dest('./js'));
 
     gulp.src(vendor.js)
         .pipe(plumber(errorHandler))
         .pipe(concat('vendor.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./public_html/js'));
+        .pipe(gulp.dest('./js'));
 
     fs.writeFile("./assets/js.vendor.version.json", JSON.stringify({
         'v': new Date().getTime()
@@ -164,19 +164,19 @@ gulp.task('image', function() {
 
 gulp.task('fonts', function(){
     gulp.src('./assets/fonts/**/*')
-        .pipe(gulp.dest('./public_html/fonts'));
+        .pipe(gulp.dest('./fonts'));
 
     gulp.src(vendor.fonts)
-        .pipe(gulp.dest('./public_html/fonts'));
+        .pipe(gulp.dest('./fonts'));
 });
 
 gulp.task('compiler', [
     //'sprite',
-    'css:app'
-    //'css:vendor',
+    'css:app',
+    'css:vendor',
     //'js:app',
-    //'js:vendor',
-    //'fonts'
+    'js:vendor',
+    'fonts'
 ]);
 
 gulp.task('watch', ['compiler'], function(){

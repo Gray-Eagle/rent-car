@@ -1,0 +1,14 @@
+{
+  "name": "test.dev",
+  "description": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "jquery.inputmask": "^3.3.4"
+  }
+}

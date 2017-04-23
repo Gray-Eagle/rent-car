@@ -1,6 +1,8 @@
 
 /node_modules/
-/css/style.css
-/css/style.min.css
 /.idea
 /assets/css.app.version.json
+/bower_components/
+/css/*
+/js/*
+/fonts/*

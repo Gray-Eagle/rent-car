@@ -1,0 +1,34 @@
+.block_six{
+    background: #f6f9f9 url("/img/layer.png") 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.block_six_size{
+    width: 553px;
+    margin: 0 auto;
+}
+
+.headline_six_text{
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 41px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 74px;
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0);
+}
+.form_group_margin{
+    margin-top: 50px;
+}
+
+.form_one{
+    height: 60px;
+}
+.form_two{
+    height: 160px;
+}
