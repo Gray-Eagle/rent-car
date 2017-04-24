@@ -1,0 +1,25 @@
+.hello_block {
+    width: 100%;
+    background: #f6f9f9;
+    margin: 0;
+    padding: 60px 0;
+}
+
+.hello_block_title {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #2d3950;
+    text-align: center;
+    margin: 0;
+}
+
+.hello_block_description {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #999999;
+    text-align: center;
+    padding: 0 20px;
+}

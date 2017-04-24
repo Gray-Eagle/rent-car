@@ -54,6 +54,13 @@
 }
 
 textarea{
+}
+
+.form_block .form_block_form_field input{
+    /* todo height */
+}
+
+.form_block .form_block_form_field textarea{
     min-height: 160px;
     resize: vertical;
 }

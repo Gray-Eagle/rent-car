@@ -124,13 +124,13 @@ gulp.task('js:app', function() {
         .pipe(sourcemaps.init())
         .pipe(concat('app.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./public_html/js'));
+        .pipe(gulp.dest('./js'));
 
     gulp.src('./assets/js/**/*.js')
         .pipe(plumber(errorHandler))
         .pipe(concat('app.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./public_html/js'));
+        .pipe(gulp.dest('./js'));
 
     fs.writeFile("./assets/js.app.version.json", JSON.stringify({
         'v': new Date().getTime()
@@ -174,7 +174,7 @@ gulp.task('compiler', [
     //'sprite',
     'css:app',
     'css:vendor',
-    //'js:app',
+    'js:app',
     'js:vendor',
     'fonts'
 ]);
@@ -188,8 +188,10 @@ gulp.task('watch', ['compiler'], function(){
         },
         files: [
             './css/style.css',
+            './js/app.js'
         ]
     });
 
     gulp.watch('./assets/css/**/*.css', ['css:app']);
+    gulp.watch('./assets/js/**/*.js', ['js:app']);
 });

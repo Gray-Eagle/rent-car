@@ -1,0 +1,51 @@
+.index_block{
+    background: #f6f9f9 url("http://cdntbs.astonmartin.com/sitefinity/homepage-carousel/art-of-living-banner-homepage3.jpg?sfvrsn=0") 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.index_block::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+}
+
+.index_wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.index_title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+    margin: 0;
+    opacity: .7;
+}
+
+.index_description{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    border-top: 2px solid #15a4fa;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.index_btns{
+    text-align: center;
+}

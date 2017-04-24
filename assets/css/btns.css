@@ -1,0 +1,31 @@
+.button {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    padding: 21px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover {
+    background: rgba(21, 164, 250, 0.8);
+}
+
+a.button {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.button:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-blue{
+    background: #15a4fa;;
+}
