@@ -1,0 +1,40 @@
+.gallery_block{
+    width: 100%;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+
+.gallery_block_header{
+    margin-bottom: 60px;
+}
+
+.gallery_block_header_title{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #2d3950;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery_block_header_description{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: #999999;
+    text-align: center;
+}
+
+.gallery_block_content{
+
+}
+
+.gallery_block_img_wrapper{
+    margin-bottom: 30px;
+}
+
+.gallery_block_img{
+    width: 360px;
+    height: 260px;
+}

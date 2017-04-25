@@ -1,5 +1,5 @@
 .index_block{
-    background: #f6f9f9 url("http://cdntbs.astonmartin.com/sitefinity/homepage-carousel/art-of-living-banner-homepage3.jpg?sfvrsn=0") 50% 50% no-repeat;
+    background: #f6f9f9 url("/img/banner.jpg") 50% 50% no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;

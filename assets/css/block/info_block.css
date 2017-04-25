@@ -1,0 +1,33 @@
+.info_block{
+    width: 100%;
+    margin: 0;
+    padding: 65px 0;
+}
+
+.info_block_item{
+    padding: 0 25px;
+}
+
+.info_block_item_title{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #2d3950;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.info_block_item_description{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #999999;
+    text-align: center;
+}
+
+.info_block_item_img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}

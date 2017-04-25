@@ -29,3 +29,7 @@ a.button:hover {
 .button-blue{
     background: #15a4fa;;
 }
+
+.button-small{
+    padding: 0 21px;
+}

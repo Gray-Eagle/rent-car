@@ -1,0 +1,76 @@
+.form_block{
+    background: #f6f9f9 url("/img/layer.png") 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 74px 0;
+}
+
+.form_block_header{
+    margin-bottom: 50px;
+}
+
+.form_block_title{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 41px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form_block_description{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    line-height: 23px;
+}
+
+.form_block_content{
+    padding: 0 20%;
+}
+
+.form_block_form_field{
+    margin-bottom: 20px;
+}
+
+.form_block_form_field--left{
+    float: left;
+    color: #fff;
+    height: 50px;
+    padding: 13px 0;
+}
+
+.form_block_form_field--right{
+    float: right;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+.btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #00b3ee;
+    border-color: #00b3ee;
+    padding: 14px 45px;
+    float: right;
+}
+
+textarea{
+}
+
+.form_block .form_block_form_field input[type=text],
+.form_block .form_block_form_field input[type=email],
+.form_block .form_block_form_field input[type=submit]{
+    height: 50px;
+}
+
+.form_block .form_block_form_field textarea{
+    min-height: 160px;
+    resize: vertical;
+}
