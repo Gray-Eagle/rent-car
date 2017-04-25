@@ -20,10 +20,11 @@
 .gallery_block_header_description{
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 23px;
     color: #999999;
     text-align: center;
+    margin: 0;
 }
 
 .gallery_block_content{
@@ -35,6 +36,7 @@
 }
 
 .gallery_block_img{
-    width: 360px;
+    width: 100%;
     height: 260px;
+    object-fit: cover;
 }

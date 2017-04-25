@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Проект по макету!</title>
+    <link rel="stylesheet" href="/css/vendor.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="header_block">
+    <div class="header_wrapper">
+        <div class="container">
+            <div class="header_logo">
+                <img src="img/logo.png" alt="" class="header_logo_img">
+                <p class="header_logo_text">RENT CAR</p>
+            </div>
+            <div class="header_menu">
+                <ul class="header_menu_list">
+                    <li class="header_menu_item"><a href="/">Главная</a></li>
+                    <li class="header_menu_item"><a href="/auto.html">Автомобили</a></li>
+                    <li class="header_menu_item"><a href="#">Отзывы</a></li>
+                    <li class="header_menu_item"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="auto_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="auto_block_filter">
+                    <div class="auto_block_filter_field">
+                        <div class="auto_block_filter_field_title">Класс</div>
+                        <div class="auto_block_filter_field_input">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="auto_block_filter_field">
+                        <div class="auto_block_filter_field_title">Бренд</div>
+                        <div class="auto_block_filter_field_input">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9">
+                <div class="auto_block_items">
+                    <div class="auto_block_item">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="auto_block_img">
+                                    <img src="http://placekitten.com/g/200/300" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="auto_block_item_title">Nisan GTR</div>
+                                <div class="auto_block_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet expedita laborum magni totam! Asperiores cupiditate deserunt doloribus, eius error expedita impedit, laboriosam provident quaerat quis repellat rerum sapiente suscipit voluptatibus.</div>
+                                <ul class="auto_block_item_prices">
+                                    <li class="auto_block_item_price">15-31 суток: 1400p.</li>
+                                    <li class="auto_block_item_price">15-31 суток: 1400p.</li>
+                                    <li class="auto_block_item_price">15-31 суток: 1400p.</li>
+                                </ul>
+                                <div class="auto_block_item_btns">
+                                    <a href="#" class="auto_block_item_btn button button-blue button-small">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auto_block_item"></div>
+                    <div class="auto_block_item"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/vendor.js"></script>
+<script src="/js/app.js"></script>
+<script id="__bs_script__">//<![CDATA[
+document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+</body>
+</html>

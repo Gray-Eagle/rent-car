@@ -16,8 +16,8 @@
             </div>
             <div class="header_menu">
                 <ul class="header_menu_list">
-                    <li class="header_menu_item"><a href="#">Главная</a></li>
-                    <li class="header_menu_item"><a href="#">Автомобили</a></li>
+                    <li class="header_menu_item"><a href="/">Главная</a></li>
+                    <li class="header_menu_item"><a href="/auto.html">Автомобили</a></li>
                     <li class="header_menu_item"><a href="#">Отзывы</a></li>
                     <li class="header_menu_item"><a href="#">Контакты</a></li>
                 </ul>
@@ -116,28 +116,39 @@
             <p class="form_block_description">Закжите авто прямо сейчас!</p>
         </div>
         <div class="form_block_content">
-            <form class="form_block_form">
-                <div class="form_block_form_field">
-                    <input type="text" class="form-control" placeholder="Full name">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 form_block_form_wrapper">
+                    <form class="form_block_form">
+                        <div class="form_block_form_field">
+                            <select class="form-control" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="form_block_form_field">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form_block_form_field">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="form_block_form_field">
+                            <textarea class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form_block_form_field">
+                            <div class="form_block_form_field--left">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Subscribe Newsletter
+                                </label>
+                            </div>
+                            <div class="form_block_form_field--right">
+                                <input type="submit" class="button button-small button-blue" value="Отправить">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="form_block_form_field">
-                    <input type="email" class="form-control" placeholder="Email Address">
-                </div>
-                <div class="form_block_form_field">
-                    <textarea class="form-control" placeholder="Message"></textarea>
-                </div>
-                <div class="form_block_form_field">
-                    <div class="form_block_form_field--left">
-                        <label>
-                            <input type="checkbox" value="">
-                            Subscribe Newsletter
-                        </label>
-                    </div>
-                    <div class="form_block_form_field--right">
-                        <input type="submit" class="button button-small button-blue" value="Отправить">
-                    </div>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
