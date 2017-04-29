@@ -188,7 +188,8 @@ gulp.task('watch', ['compiler'], function(){
         },
         files: [
             './css/style.css',
-            './js/app.js'
+            './js/app.js',
+            './*.html'
         ]
     });
 

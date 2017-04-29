@@ -5,9 +5,9 @@
 
 .auto_block_filter{
     background: #f6f9f9;
-    padding: 10px 5px;
-    border: 2px solid #00b3ee;
+    padding: 15px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .auto_block_filter_field{
@@ -32,9 +32,8 @@
 }
 
 .auto_block_item{
-    border: 2px solid #00b3ee;
     border-radius: 5px;
-    padding: 20px 20px 70px;
+    padding: 15px 15px;
     margin-bottom: 20px;
     background: #f6f9f9;
     position: relative;
@@ -64,8 +63,18 @@
     font-size: 15px;
     line-height: 23px;
     color: #2d3950;
-    height: 100%;
     border-left: 2px solid #00b3ee;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    bottom: 15px;
+    width: 200px;
+    padding: 0 15px;
+}
+
+.auto_block_item_prices_list{
+    padding: 0;
+    list-style-type: none;
 }
 
 .auto_block_item_price{
@@ -74,14 +83,22 @@
 
 .auto_block_item_btns{
     position: absolute;
-    bottom: 15px;
-    right: 20px;
-    float: right;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
 }
 
 .auto_block_item_btn{
-    padding: 8px 30px;
+    padding: 8px 0;
+    width: 100%;
+    display: inline-block;
     font-size: 14px;
+    transition: all 200ms ease-in-out;
+    transform: translate(0, 0);
+}
+
+.auto_block_item_btn:hover{
+    transform: translate(0, -2px);
 }
 
 .auto_block_img_wrapper{
