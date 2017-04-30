@@ -22,3 +22,8 @@ hr{
     margin-bottom: 20px;
     border: solid 1px #00b3ee;
 }
+
+label{
+    margin-bottom: 0;
+    width: 100%;
+}

@@ -24,7 +24,21 @@
 }
 
 .auto_block_filter_field_input{
-    margin-bottom: 10px;
+
+}
+
+.auto_block_filter_field_control{
+    background-color: rgba(255, 255, 255, 0);
+    color: #3c36ff;
+    width: 100%;
+    height: 38px;
+}
+
+.auto_block_filter_field_btn{
+    padding: 8px 30px;
+    font-size: 14px;
+    float: right;
+    transition: all 200ms ease-in-out;
 }
 
 .auto_block_items{

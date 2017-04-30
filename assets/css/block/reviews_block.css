@@ -1,0 +1,55 @@
+.reviews_block{
+    background: #f6f9f9 url("/img/layer.png") 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.reviews_block_header{
+    margin-bottom: 30px;
+}
+
+.reviews_block_title{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.reviews_block_content{
+
+}
+
+.reviews_block_form_wrapper{
+    float: none;
+    margin: 0 auto;
+}
+
+.reviews_block_form{
+
+}
+
+.reviews_block_form_field{
+    margin-bottom: 20px;
+}
+
+
+
+.reviews_block_form_btn{
+    float: right;
+}
+
+.reviews_block .reviews_block_form_field input[type=text],
+.reviews_block .reviews_block_form_field input[type=email],
+.reviews_block .reviews_block_form_field input[type=submit],
+.reviews_block .reviews_block_form_field select{
+    height: 50px;
+}
+
+.reviews_block .reviews_block_form_field textarea{
+    min-height: 160px;
+    resize: vertical;
+}

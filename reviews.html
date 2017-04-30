@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Проект по макету!</title>
+    <link rel="stylesheet" href="/css/vendor.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="header_block">
+    <div class="header_wrapper">
+        <div class="container">
+            <div class="header_logo">
+                <img src="img/logo.png" alt="" class="header_logo_img">
+                <p class="header_logo_text">RENT CAR</p>
+            </div>
+            <div class="header_menu">
+                <ul class="header_menu_list">
+                    <li class="header_menu_item"><a href="/">Главная</a></li>
+                    <li class="header_menu_item"><a href="/auto.html">Автомобили</a></li>
+                    <li class="header_menu_item"><a href="/reviews.html">Отзывы</a></li>
+                    <li class="header_menu_item"><a href="/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="reviews_block">
+    <div class="container">
+        <div class="reviews_block_header">
+            <p class="reviews_block_title">Оставте свой отзыв</p>
+        </div>
+        <div class="reviews_block_content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 reviews_block_form_wrapper">
+                    <form class="reviews_block_form">
+                        <div class="reviews_block_form_field">
+                            <input type="text" class="form-control" placeholder="Имя">
+                        </div>
+                        <div class="reviews_block_form_field">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="reviews_block_form_field">
+                            <textarea class="form-control" placeholder="Отзыв"></textarea>
+                        </div>
+                        <div class="reviews_block_form_field">
+                            <input type="submit" class="reviews_block_form_btn button button-small button-blue"
+                                   value="Отправить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="review_block">
+    <div class="review_block_field">
+        <div class="container">
+            <div class="review_block_title">Сергей</div>
+            <div class="review_block_description">Все классно и быстро!</div>
+        </div>
+    </div>
+    <div class="review_block_field">
+        <div class="container">
+            <div class="review_block_title">Андрей</div>
+            <div class="review_block_description">Супер!!! Машины хорошие!</div>
+        </div>
+    </div>
+</div>
+<script src="/js/vendor.js"></script>
+<script src="/js/app.js"></script>
+<script id="__bs_script__">//<![CDATA[
+document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+</body>
+</html>
